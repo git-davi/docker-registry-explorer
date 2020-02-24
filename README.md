@@ -1,10 +1,10 @@
 # docker-registry-explorer
 This tool was inspired by by [this article](https://www.notsosecure.com/anatomy-of-a-hack-docker-registry/).
-I wasn't satisfied by the others tool I found. So i created my own.
+I wasn't satisfied by the other tools I found so i created my own.
 
 ### What should you use it for
-Test the api supported.
-Explore, download and get infos from the repos in the Docker Private Registry.
+Test the api supported for the target Docker registry.
+Explore, download and get infos from the repositories.
 **Authentication is also supported.**
 
 ## Usage
@@ -41,4 +41,6 @@ actions:
 #### Example
 
 List all repositories :
-> ./docker_registry_explorer.py list -d http://docker.regist.my -a test:test -v2
+```shell
+./docker_registry_explorer.py list -d http://docker.regist.my -a test:test -v2
+```
