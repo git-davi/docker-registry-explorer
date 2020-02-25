@@ -1,6 +1,6 @@
 # docker-registry-explorer
-This tool was inspired by by [this article](https://www.notsosecure.com/anatomy-of-a-hack-docker-registry/).
-I wasn't satisfied by the other tools I found so i created my own.
+This tool was inspired by [this article](https://www.notsosecure.com/anatomy-of-a-hack-docker-registry/).
+I wasn't satisfied of the other tools I found so i created my own.
 
 ### What should you use it for
 Test the api supported for the target Docker registry.
